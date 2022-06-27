@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  margin: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+  position: relative;
+  @media #{$small} {
+    width: 540px;
+  }
+  @media #{$medium} {
+    width: 720px;
+  }
+  @media #{$large} {
+    width: 960px;
+  }
+  @media #{$xlarge} {
+    width: 1140px;
+  }
+}
+.clear-fix {
+  clear: both;
+}

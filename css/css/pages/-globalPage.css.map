@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,IAAK;EACH,gBAAgB,EAAE,OAAO;EAEvB,WAAM,EAAE,MAAM;EACd,SAAI,EAAE,IAAI;;AAGd,EAAG;EACD,UAAU,EAAE,IAAI;EAChB,OAAO,EAAE,CAAC",
+"sources": ["../../sass/pages/-globalPage.scss"],
+"names": [],
+"file": "-globalPage.css"
+}

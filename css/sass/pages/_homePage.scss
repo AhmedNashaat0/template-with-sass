@@ -1,0 +1,135 @@
+/* start slider*/
+.slider {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  p {
+    text-align: center;
+    margin: 30px auto;
+    max-width: 70%;
+    color: $greyColor;
+    font: {
+      size: 18px;
+      weight: bold;
+      style: italic;
+      family: Arial, Helvetica, sans-serif;
+    }
+  }
+  img {
+    width: 100%;
+  }
+  li {
+    width: 15px;
+    height: 15px;
+    background-color: $greyColor;
+    border-radius: 50%;
+    display: inline-block;
+    border: 3px solid $greyColor;
+    cursor: pointer;
+    transition: 0.3s;
+    &.active,
+    &:hover {
+      border: 3px solid black;
+      background-color: transparent;
+    }
+  }
+}
+/* end slider*/
+/* start services*/
+.services {
+  padding-bottom: 50px;
+  .service-box {
+    float: $float-left;
+    width: (100% / 3);
+    @media #{$xSmall} {
+      width: 100%;
+      float: none;
+      text-align: center;
+    }
+    padding-right: 5px;
+    h3 {
+      color: #555;
+      i {
+        font-size: 35px;
+      }
+    }
+    p {
+      color: #777;
+    }
+    a {
+      color: $redColor;
+      text-decoration: none;
+    }
+  }
+}
+/* end services*/
+/* start playes-sec*/
+.players {
+  padding-bottom: 50px;
+  .player-box {
+    float: $float-left;
+    width: (97% / 5);
+    border: 1px solid rgba(0, 0, 0, 0.164);
+    border-radius: 5px;
+    overflow: hidden;
+    margin-right: 5px;
+    @media #{$xSmall} {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    @media #{$small} {
+      width: 48%;
+      margin-bottom: 20px;
+    }
+    @media #{$medium} {
+      width: 30%;
+    }
+    @media #{$large} {
+      width: (97% / 5);
+    }
+    img {
+      width: 100%;
+      height: 50%;
+      @media #{$xSmall} {
+        height: 300px;
+      }
+    }
+    h4 {
+      padding: 0 3px 0 3px;
+      color: #555;
+      font-weight: normal;
+      span {
+        font-weight: bold;
+      }
+    }
+    p {
+      padding: 0 3px 0 3px;
+      color: #777;
+    }
+    a {
+      padding: 0 3px 0 3px;
+      color: $redColor;
+      text-decoration: none;
+    }
+  }
+}
+/* end player-sec*/
+/*start lorem-ipsum*/
+.lorem {
+  padding-bottom: 50px;
+  .lorem-box {
+    float: $float-left;
+    width: (94% / 3);
+    &:not(:last-of-type) {
+      margin-right: 3%;
+    }
+    @media #{$xSmall} {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+  img {
+    width: 100%;
+  }
+}
+/*end lorem-ipsum*/
